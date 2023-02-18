@@ -52,5 +52,26 @@ class MainActivity : AppCompatActivity() {
         fun changed(progressBar: ProgressBar, suma: Int) {
             progressBar.progress = suma / 3
         }
+        obraz1_pion.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(seekBar: SeekBar,progres: Int, fromUser: Boolean) {
+                val scale = progres/100f
+                obraz1.scaleY = scale
+                changed(progress_pion, suma_pionu())
+            }
+
+            override fun onStartTrackingTouch(seekBar: SeekBar) {}
+            override fun onStopTrackingTouch(seekBar: SeekBar) {}
+        })
+
+        obraz1_poziom.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener {
+            override fun onProgressChanged(seekBar: SeekBar,progres: Int, fromUser: Boolean) {
+                val scale = progres/100f
+                obraz1.scaleX = scale
+                changed(progress_poziom, suma_poziomu())
+            }
+
+            override fun onStartTrackingTouch(seekBar: SeekBar) {}
+            override fun onStopTrackingTouch(seekBar: SeekBar) {}
+        })
     }
 }

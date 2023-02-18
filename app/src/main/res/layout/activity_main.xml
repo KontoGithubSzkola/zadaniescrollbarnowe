@@ -95,7 +95,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.458"
-        app:srcCompat="@drawable/porsche" />
+        app:srcCompat="@drawable/porsche"
+        tools:srcCompat="@drawable/ok2" />
 
     <Button
         android:id="@+id/reset"
@@ -118,7 +119,8 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136" />
+        app:layout_constraintVertical_bias="0.136"
+        app:srcCompat="@drawable/ok1" />
 
     <ImageView
         android:id="@+id/im4"
@@ -130,7 +132,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.778"
-        app:srcCompat="@drawable/porsche" />
+        app:srcCompat="@drawable/ok3" />
 
     <SeekBar
         android:id="@+id/poziom3"
