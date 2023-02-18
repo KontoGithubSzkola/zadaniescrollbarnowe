@@ -118,11 +118,10 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136"
-        app:srcCompat="@drawable/porsche" />
+        app:layout_constraintVertical_bias="0.136" />
 
     <ImageView
-        android:id="@+id/imv3"
+        android:id="@+id/im4"
         android:layout_width="215dp"
         android:layout_height="154dp"
         app:layout_constraintBottom_toBottomOf="parent"
